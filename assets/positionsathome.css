@@ -1,0 +1,63 @@
+
+.wrapper
+{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+body
+{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 20px; 
+    text-align: center;
+    height: 100;
+    width:300;
+    background: rgb(78, 77, 77);
+    color: white
+}
+
+p
+{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px; 
+}
+
+#fixed
+{
+    padding: 40px;
+    background: rgb(255, 3, 3);
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+
+}
+
+#relative
+{
+    padding: 40px;
+    background: rgb(14, 241, 14);
+    position: relative;
+    text-align: center;
+    height: 200px;
+}
+
+#absolute
+{
+    padding: 40px;
+    background: rgb(14, 67, 241);
+    position: absolute;
+    text-align: center;
+    bottom: -20px;
+    right: -30px;
+}
